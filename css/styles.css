@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  background-color: #fdfdfd;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #1a1a1a;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.container h1 {
+  color: #003366;
+  font-weight: 600;
+}
+.navbar {
+  background-color: #2c3e50;
+  padding: 1.2rem 0;
+  /* margin-top: 1rem; */
+  border-bottom: 4px solid #3498db;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  padding-bottom: 0.2rem;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #004494;
+}
+
+.form-wrapper {
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.col-half {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin: 0 2%;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  vertical-align: top;
+}
+
+.card,
+.col-half {
+  text-align: left;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.card,
+.col-half,
+.form-wrapper {
+  background-color: white;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  margin-top: 3rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e6f0fa;
+  color: #0056b3;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 0.3rem;
+  border: 1px solid #cce0f5;
+}
