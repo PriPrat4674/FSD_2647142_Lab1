@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Iosevka Charon", monospace;
   color: #333333;
   background-color: #fdfdfd;
   line-height: 1.6;
@@ -51,11 +51,10 @@ h3 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.navbar li {
-  display: inline-block;
-  margin: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .btn {
@@ -153,4 +152,22 @@ h3 {
   font-size: 0.85rem;
   margin: 0.3rem;
   border: 1px solid #cce0f5;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .col-half,
+  .card {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .form-wrapper {
+    width: 90%;
+    padding: 1.5rem;
+  }
 }
